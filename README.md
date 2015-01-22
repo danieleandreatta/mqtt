@@ -7,11 +7,11 @@ I tested it with Mosquitto, and it is able to handle multiple subscribers and pu
 
 `mosquitto_sub  -h localhost  -t /test/ -p 9999`
 
-`mosquitto_pub -h localhost -t /test/ -p 9999 -l < test.txt `
+`mosquitto_pub -h localhost -t /test/ -p 9999 -m 'some random message'`
 
 It does **not** support:
 - Topic wildcards
 - QoS
-- RETAIL
+- RETAIN
 - Will
 - username/password
