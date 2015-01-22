@@ -5,7 +5,11 @@ This is a simple barebone MQTT broker. It is simply a proof of concept in python
 
 I tested it with Mosquitto, and it is able to handle multiple subscribers and publishers. It support just literal topic filtering.
 
-`mosquitto_sub  -h localhost  -t /test/ -p 9999`
+In 3 terminal do
+
+`./mqtt.py`
+
+`mosquitto_sub -h localhost -t /test/ -p 9999`
 
 `mosquitto_pub -h localhost -t /test/ -p 9999 -m 'some random message'`
 
