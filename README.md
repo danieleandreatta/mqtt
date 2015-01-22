@@ -3,6 +3,8 @@
 
 This is a simple barebone MQTT broker. It is simply a proof of concept in python3. It does not require any library, it is a self contained application.
 
+[MQTT specs](http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html)
+
 I tested it with Mosquitto, and it is able to handle multiple subscribers and publishers. It support just literal topic filtering.
 
 In 3 terminal do
